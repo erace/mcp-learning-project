@@ -12,9 +12,16 @@
 - Track all file changes I make
 - Create descriptive commits 
 - Maintain full history of AI assistance
+- ✅ **NEW**: Create and switch between branches
+- ✅ **NEW**: Work on features in isolation
+
+## Branching Workflow Test
+
+**Current branch:** feature/git-mcp-demo  
+**Demonstrates:** I can work on features without affecting main branch
 
 ## Next Steps
-- Test branch operations
+- Test merge operations
 - Explore commit history
 - Test collaboration workflow
 
