@@ -5,6 +5,8 @@
 **Status:** Phase 1 Complete - Core Infrastructure MCPs Working  
 **Next Phase:** Advanced Integration MCPs
 
+**Related:** [[CLAUDE-WORKING-RULES]] | [[MCP-USAGE-PATTERNS]] | [[session-01-sqlite/README]]
+
 ## ✅ Successfully Implemented & Working MCPs
 
 ### 1. **Filesystem MCP** 
@@ -13,6 +15,7 @@
 - **Capabilities:** File operations, project organization, context preservation
 - **Use Case:** All file management, session documentation, templates
 - **Rating:** 5/5
+- **See also:** [[templates/session-template]] for structured approach
 
 ### 2. **SQLite MCP**
 - **Package:** `mcp-server-sqlite-npx` 
@@ -20,6 +23,7 @@
 - **Capabilities:** Structured data storage, queryable knowledge base
 - **Use Case:** MCP server tracking, learning patterns, decision matrices
 - **Database:** Contains complete MCP exploration history with 7 servers tracked
+- **Details:** [[session-01-sqlite/SETUP-GUIDE]] | [[session-01-sqlite/README]]
 
 ### 3. **Git MCP (Advanced)**
 - **Package:** `@cyanheads/git-mcp-server`
@@ -28,6 +32,7 @@
 - **Use Case:** Version control, audit trail, context preservation through commits
 - **Rating:** 5/5
 - **Achievement:** Successfully pushed to GitHub via SSH
+- **Testing:** [[git-test]] demonstrates workflow
 
 ### 4. **GitHub MCP**
 - **Package:** `@modelcontextprotocol/server-github`
@@ -122,6 +127,7 @@ projects/mcp-learning/
 - **Git MCP:** Essential for audit trails and context preservation
 - **Search MCP:** Critical for current information and validation
 - **GitHub MCP:** Necessary for collaboration and backup
+- **See:** [[MCP-USAGE-PATTERNS]] for detailed decision framework
 
 ### **Workflow Patterns:**
 - **Session startup:** Read context files + query database + check Git status
@@ -138,8 +144,18 @@ projects/mcp-learning/
 - ✅ Brief communication style
 - ✅ Git workflow integration
 
+**Behavior Rules:** [[CLAUDE-WORKING-RULES]]
+
+## 🔗 Related Projects
+
+**Other active projects in this workspace:**
+- [[mercaso-aspis/README]] - Advanced project with MASPIS tooling
+- [[teas-adventure/README]] - Tea exploration project
+- [[multi-session-workflow/project-brief]] - Workflow design project
+
 **Project Status:** Ready for Phase 2 - Advanced MCP Integration
 
 ---
 **Last Updated:** 2025-05-29  
-**Next Goal:** Explore Obsidian MCP for knowledge graph capabilities
+**Next Goal:** Explore Obsidian MCP for knowledge graph capabilities  
+**Session History:** [[memory/session-log]]
